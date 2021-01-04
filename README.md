@@ -1,3 +1,3 @@
-#Shiv-Om
+Shiv-Om
 
 Coming soon...
