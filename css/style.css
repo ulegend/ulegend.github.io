@@ -1,0 +1,91 @@
+/* Necessary for full page carousel*/
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header{
+  background-color: black;
+  height: 50%;
+  width: auto;
+}
+
+.name {
+  color: white;
+  text-align: center;
+  padding: 4%;
+}
+
+.avatar > img {
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.line{
+  border-top: 2px dashed black;
+  opacity: 0.25;
+  margin: 3rem auto;
+  text-align: center;
+  width: 50%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 1rem;
+}
+
+p {
+  font-size: 19px;
+  color: #636665;
+}
+
+table p {
+  padding: 0;
+}
+
+footer {
+  height: 40%;
+  background-color: black;
+  width: auto;
+}
+
+footer .footer-content {
+  padding: 5rem;
+}
+
+ul {
+  list-style-type: none;
+  border-bottom: 2px;
+  text-align: center;
+  background-color: black;
+}
+
+li {
+  display: inline;
+  font-size: 30px;
+  padding: 0.3rem;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+}
