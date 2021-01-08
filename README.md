@@ -1,3 +1,3 @@
 Shiv-Om
 
-Coming soon...
+All projects can be found in the Repositories panel.
