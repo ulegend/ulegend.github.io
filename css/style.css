@@ -23,7 +23,7 @@ html, body {
 }
 
 .about {
-  padding-top: 3rem;
+  padding: 2rem 1rem;
   text-align: center;
 }
 
@@ -61,7 +61,7 @@ footer {
 }
 
 footer .footer-content {
-  padding: 5rem;
+  padding: 4rem;
 }
 
 ul {
