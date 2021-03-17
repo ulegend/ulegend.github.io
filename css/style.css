@@ -127,3 +127,8 @@ hr {
   z-index: 2;
   cursor: pointer;
 }
+
+.nav-item {
+  font-size: 20px;
+  border-bottom: 0;
+}
