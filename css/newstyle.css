@@ -31,25 +31,23 @@ a {
 
 .card {
   text-align: center;
-  margin: 10px;
+  margin: 2rem 1rem;
   opacity: 0.7;
   padding: 2rem;
   color: #000;
   min-height: 250px;
-  filter: grayscale(100%);
   background-image: linear-gradient(260deg, rgb(2, 60, 38) 0%, rgb(10, 96, 60) 100%);
   border: none;
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
-  box-shadow: 5px 5px 10px rgb(0, 12, 36);
 }
 
 
 .card:hover{
   opacity: 1;
-  filter: unset;
-  box-shadow: 10px 10px 50px #000;
-  transition: filter 0.5s ease-in;
+  box-shadow: 5px 10px 10px rgb(13, 108, 72);
+  margin: 1.5rem 0.7rem;
+  transition: margin 0.3s ease-in;
 }
 
 
@@ -262,9 +260,14 @@ footer .footer-content {
 
   .card {
     margin: 2rem 1rem;
-    filter: unset;
-    transition: opacity 0.5s ease-in;
+    transition: margin 0.3s ease-in;
   }
+
+  .card:hover{
+    margin: 2rem 0.7rem;
+    transition: margin 0.3s ease-in;
+  }
+
 
   footer .footer-content {
     padding: 2rem;
