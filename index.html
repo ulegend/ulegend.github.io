@@ -1,95 +1,155 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <title>Shiv-Om</title>
+    <link href="css/newstyle.css" rel="stylesheet">
+
+    <title>Shv-Om</title>
   </head>
   <body>
-
-    <ul class="nav nav-tabs" style="background-color: black; border-bottom: none;">
-      <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="projects.html">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="blog.html">Blog</a>
-      </li>
-    </ul>
-
-    <div class="header">
-      <div class="name">
-        <h1>$hiv-Om</h1>
-        <p> >> A small introductory explaination about me..</p>
+    <header>
+      <div class="row">
+        <div class="col-12">
+          <div class="caption">
+          <span class="Title"><span style="font-size: 3.5rem;">S</span>HIV-OM</span>
+          <br/>
+          <span class="description">Software / Website Developer</span>
+          </div>
+        </div>
       </div>
-    </div>
+    </header>
 
     <div class="content">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="avatar">
-            <img src="images/shivom.jpeg" alt="avatar">
+      <div class="content-card">
+        <div class="row">
+          <div class="col-md-2">
+            <p class="about-title">About</p>
           </div>
-        </div>
-        <div class="col-md-7">
-          <div class="about">
-            <h1>About</h1>
-            <p> >> Better life <- Code + Music</p>
-            <p style="text-align:justify"> >> Small projects listed on my Github repos.</p>
-            <p style="text-align:justify"> >> Ready to learn new technologies with research work also.</p>
-            <div class="line"></div>
-            <p style="text-align:justify">Graduation: Bachelor in Computer Application form IGNOU - India</p>
-            <p style="text-align:justify">Pusruing Masters in Computer Science specialized in Cyber Security from IIITM-Kerala - India</p>
+          <div class="col-md-10">
+            <p class="small-heading" style="text-align: center;">$ Better life <- Code + Music</p>
+            <p class="normal-text">$ Cyber Security and Tech enthusiast with some football skills and a good taste of &#9834; music.</p>
+            <p class="normal-text">$ </p>
           </div>
         </div>
       </div>
 
-      <div class="line"></div>
+      <div class="content-card">
+        <div class="row">
+          <div class="col-md-2">
+            <p class="about-title">Projects</p>
+          </div>
+          <div class="col-md-10" style="text-align: center;">
 
-      <div class="row justify-content-center">
-        <div class="col"></div>
-        <div class="col-md-5">
-          <p style="text-align: center; font-weight: bold;">Programming Skills:</p>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"><p>Python</p></li>
-            <li class="list-group-item"><p>Django</p></li>
-            <li class="list-group-item"><p>C++</p></li>
-            <li class="list-group-item"><p>Javascript</p></li>
-            <li class="list-group-item"><p>CSS</p></li>
-          </ul>
+            <div class="row">
+              <div class="col-md-6">
+                <a href="https://stegme.pythonanywhere.com/" target="_blank">
+                  <div class="card bg-dark text-white">
+                    <div class="">
+                      <h5 class="card-title">&#10084</h5>
+                      <p class="card-title" style="font-weight: bold; font-size: 18px;">StegMe</p>
+                      <p class="card-text">Data hiding tool based on Steganography</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-6">
+                <a href="https://github.com/ulegend/baato-windows" target="_blank">
+                  <div class="card bg-dark text-white">
+                    <div class="">
+                      <h5 class="card-title">&#10084</h5>
+                      <p class="card-title" style="font-weight: bold; font-size: 18px;">Baato</p>
+                      <p class="card-text">Fast file sharing application for all systems uisng WiFi-direct</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <a href="https://github.com/ulegend/keylogger" target="_blank">
+                  <div class="card bg-dark text-white">
+                    <div class="">
+                      <h5 class="card-title">&#10084</h5>
+                      <p class="card-title" style="font-weight: bold; font-size: 18px;">Keylogger</p>
+                      <p class="card-text">A learning purpose Keylogger in C++</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="https://github.com/ulegend/SchoolErp_Exam" target="_blank">
+                  <div class="card bg-dark text-white">
+                    <div class="">
+                      <h5 class="card-title">&#10084</h5>
+                      <p class="card-title" style="font-weight: bold; font-size: 18px;">Quizzer</p>
+                      <p class="card-text">A school erp software to manage online Quizzes.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-12">
+                <a href="https://github.com/ulegend?tab=repositories" target="_blank"><h5 class="card-title">All other small projects are listed on my github page with &#10084</h5></a>
+              </div>
+            </div>
+
+          </div>
         </div>
-        <div class="col-md-5">
-          <p style="text-align: center; font-weight: bold;">Hobbies:</p>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"><p>Coding</p></li>
-            <li class="list-group-item"><p>Music</p></li>
-            <li class="list-group-item"><p>Football</p></li>
-          </ul>
-        </div>
-        <div class="col"></div>
       </div>
+
+      <div class="content-card">
+        <div class="row">
+          <div class="col-md-2">
+            <p class="about-title">Skills</p>
+          </div>
+          <div class="col-md-10">
+            <p class="normal-text"><span class="small-heading">Programming Languages:</span> Python, C/C++, Javascript, SQL</p>
+            <p class="normal-text"><span class="small-heading">Database & Framework:</span> Postgresql, MySql, Django</p>
+            <p class="normal-text"><span class="small-heading">Hobbies:</span> Music, Coding, Football</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-card">
+        <div class="row">
+          <div class="col-md-2">
+            <p class="about-title">Edu.</p>
+          </div>
+          <div class="col-md-10">
+            <p class="normal-text"><span class="small-heading">IGNOU:</span> Bachelors in Computer Application (2017-21)</p>
+            <p class="normal-text"><span class="small-heading">Jawahar Navodaya Vidyalaya:</span> High school (2014) & Intermediate (2016)</p>
+            <p class="normal-text"><span class="small-heading">Lal Bahadur Shastri Institute:</span> Diploma in Information Technology (2017-18)</p>
+          </div>
+        </div>
+      </div>
+
+
     </div>
 
     <footer>
       <div class="footer-content">
-        <ul>
-          <li><a href="https://www.facebook.com/s.chaudhary.003/" class="fa fa-facebook"></a></li>
-          <li><a href="https://www.instagram.com/shv_om/" class="fa fa-instagram"></a></li>
-          <li><a href="https://github.com/ulegend" class="fa fa-github"></a></li>
-          <li><a href="https://www.linkedin.com/in/shivom6197" class="fa fa-linkedin"></a></li>
+        <ul class="hor-ul">
+          <li class="hor-li"><a href="https://www.facebook.com/s.chaudhary.003/" target="_blank">fb</a></li>
+          <li class="hor-li"><a href="https://www.instagram.com/shv_om/" target="_blank">ig</a></li>
+          <li class="hor-li"><a href="https://github.com/ulegend" target="_blank">git</a></li>
+          <li class="hor-li"><a href="https://www.linkedin.com/in/shivom6197" target="_blank">in</a></li>
         </ul>
         <p style="text-align: center;">Designed with &#10084; by Shivam</p>
       </div>
     </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
   </body>
 </html>
