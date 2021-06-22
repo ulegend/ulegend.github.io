@@ -222,7 +222,11 @@ footer .footer-content {
 @media only screen and (max-width: 540px) {
   
   h1, h2, h3, h4, h5, h6, p {
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+  }
+
+  header {
+    background-attachment: scroll;
   }
 
   .content {
@@ -231,17 +235,36 @@ footer .footer-content {
   }
 
   .Title {
-    font-size: 2.4rem;
+    font-size: 2rem;
     letter-spacing: 0.3rem;
+  }
+
+  .about-title {
+    font-size: 2rem;
+    writing-mode: unset;
+    text-orientation: unset;
+  }
+
+  .small-heading {
+    font-size: 16px;
+  }
+
+  .normal-text {
+    font-size: 14px;
   }
 
   .content-card {
     max-width: 100%;
-    padding: 0.7rem;
+    padding: 1rem;
     margin: 3rem 0;
     opacity: 1;
   }
 
+  .card {
+    margin: 2rem 1rem;
+    filter: unset;
+    transition: opacity 0.5s ease-in;
+  }
 
   footer .footer-content {
     padding: 2rem;
